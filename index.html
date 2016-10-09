@@ -3,9 +3,13 @@
 <head>
 
   <title>FFCheatsheet</title>
-
-  <link rel="stylesheet" type="text/css" href="css/styles.css">
+  <!-- bootstrap css -->
+  <link rel="stylesheet" href="lib/bootstrap-3.3.7/css/bootstrap.min.css">
+  <!-- google font -->
   <link href="https://fonts.googleapis.com/css?family=Aldrich|Bangers|Orbitron" rel="stylesheet">
+
+  <!-- custom css -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 <body>
   <div class="container">
@@ -23,15 +27,17 @@
     <p class="option">Select Position</p>
   </div>
 
-    <form class="radio">
-      <input type="radio" name="position" value="QB"> QB |
-      <input type="radio" name="position" value="WR"> WR |
-      <input type="radio" name="position" value="RB"> RB |
-      <input type="radio" name="position" value="TE"> TE |
-      <input type="radio" name="position" value="K"> K |
-      <input type="radio" name="position" value="DEF"> DEF
-    </form>
+  <div class="btn-group" role="group" aria-label="...">
+    <button type="button" class="btn btn-default">Left</button>
+    <button type="button" class="btn btn-default">Middle</button>
+    <button type="button" class="btn btn-default">Right</button>
+  </div>
 
 <footer>Copyright2016</footer>
-</body>
+<!-- bootstrap javascript -->
+<script src="lib/bootstrap-3.3.7/js/bootstrap.min.js" charset="utf-8"></script>
+<!-- jquery -->
+<script src="lib/jquery-3.1.1.min.js" charset="utf-8"></script>
+
+  </body>
 </html>
